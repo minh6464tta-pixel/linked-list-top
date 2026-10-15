@@ -8,4 +8,10 @@ example.append(2)
 
 puts example
 
-puts example.index(2)
+puts example.insert_at(3, -1, -2)
+
+puts example
+
+example.remove_at(4)
+
+puts example
